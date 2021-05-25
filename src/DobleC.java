@@ -23,7 +23,7 @@ public boolean esVacia(){
 public void llenarListaDoble(){
            DatoDC d =  new DatoDC();
            d.setVenta(Double.parseDouble(JOptionPane.showInputDialog(null,
-                    "Digite la venta realizada:")));
+                    "Digite la venta realizada por el usuario:")));
             NodoDC nuevo = new NodoDC();
             nuevo.setElemento(d);
              if (esVacia()) {
